@@ -1,0 +1,222 @@
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.section-introd {
+    height: 820px;
+    background-image: url(img/rach.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-introd h1 {
+    text-align: center;
+    color: blue;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-introd header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12em;
+}
+
+.link {
+    flex: 1;
+}
+.link p{
+    color: white;
+    font-size: 20px;
+    flex: 1;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 25em;
+}
+#foodo{
+    background-image:url("img/food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-sect{
+    /* display: inline-block; */
+    /* align-items: center; */
+    padding: 20px;
+    /* width: 100%; */
+    height: auto;
+    border: 5px solid white;
+}
+.about-sect div{
+    display: inline-block;
+    width: 33.3%;
+    float: left;
+}
+.menu{
+    text-align: center;
+    font-size: 30px;
+    color: crimson;
+    display: block;
+    border-style: dotted;
+    border-color: black crimson;
+    border-width: 3px 3px;
+}
+img {
+    width: 220px;
+    height: 300px;
+    border: 2px solid white; 
+    display: flex;
+    align-items: center;
+  }
+.about-sect img{
+    width: 220px;
+}
+.about-sect div{
+    align-items: center;
+}
+h2, h4 {
+    
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.8em;
+    color: crimson;
+}
+marquee{
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+}
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  background-image: url('https://www.macworld.co.uk/cmsdata/features/3672000/how_set_up_contact_group_iphone_ipad_thumb800.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.box{
+  position: relative;
+  display: block;
+  width: 35%;
+  height: 500px;
+  margin: 60px auto;
+  padding: 5px 20px;
+}
+
+h1 {
+  color: rgb(105, 105, 105);
+  font-size: 70px;
+  font-weight: 100;
+  text-align: center;
+}
+
+span.keyz {
+  display: inline;
+  font-size: 75px;
+  color: #1b0bf7;
+  margin-right: -20px;
+}
+
+.foodora{
+  width: 100%;
+  height: 330px;
+  padding: 25px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 1px #0e0e0e;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.k1,.k2,.k3,.k4 {
+  display: inline-block;
+  color: #fff;
+  height: 35px;
+  font-size: 20px;
+  margin: 10px 5px;
+  padding: 0 0 0 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
+input::placeholder,
+textarea::placeholder{
+  color: #fff;
+  font-size: 18px;
+}
+
+.k1, .k2 {
+  width: 45%;
+}
+
+.k3, .k4 {
+  width: 94%;
+}
+
+.k4 {
+  height: 90px;
+  padding: 5px 10px;
+}
+
+input[type="submit"] {
+  width: 94%;
+  height: 50px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 100;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: #0461ec;
+}
+@media (min-width:320px) and (max-width:800px) {
+    .menu{
+        height: 500px;
+    }
+    img {
+        width: 350px;
+        align-items: center;
+    }
+}
+@media screen and (max-width:985px) {
+     .nav-row{
+         margin-top: 20px;
+        }
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: thistle;
+}
+table{
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-item{
+    display: inline;
+    font-size: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 15, 15);
+}
+a:hover{
+    color: white;
+    background-color: crimson;
+}
